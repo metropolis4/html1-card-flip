@@ -1,6 +1,6 @@
 .portfolio-item {
 	transform-style: preserve-3d;
-	transition: transform 1s;
+	transition: transform 0.4s;
 }
 .portfolio-item div {
 	backface-visibility: hidden;
@@ -10,8 +10,8 @@
 	z-index: 2;
 }
 .back {
-	/*position: relative;
-	top: -200px;*/
+	position: relative;
+	top: -200px;
 	z-index: 1;
 	transform: rotateY(-180deg);
 }
