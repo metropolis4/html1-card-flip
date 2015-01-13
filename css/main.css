@@ -5,6 +5,7 @@
 }
 .portfolio-item div {
 	backface-visibility: hidden;
+	box-shadow: 4px 4px 4px #444444;
 	
 }
 .front {
